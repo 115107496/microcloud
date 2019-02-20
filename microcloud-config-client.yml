@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+ port: 8101
+spring:
+  profiles: dev
+  application:
+    name: microcloud-config-clent-dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eroot:eroot@eureka7001.com:7001/eureka
+---
+server:
+  port: 8102
+spring:
+  profiles: beta
+  application:
+    name: microcloud-config-clent-beta
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eroot:eroot@eureka7001.com:7001/eureka
+---
+server:
+  port: 8103
+spring:
+  profiles: pro
+  application:
+    name: microcloud-config-clent-pro
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eroot:eroot@eureka7001.com:7001/eureka
