@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mydb8001
     username: root
-    password: root
+    password: '{cipcher}85b6e595e7702d5a432967afed4ee999b5f598cabd022350e48734f8494e62dd'
     dbcp2:
       min-idle: 50
       initial-size: 50
