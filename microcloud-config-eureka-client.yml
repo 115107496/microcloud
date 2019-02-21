@@ -1,0 +1,24 @@
+server:
+  port: 7001
+
+eureka:
+  server:
+    eviction-interval-timer-in-ms: 6000 #自动清理间隔时间 默认为60S
+    enable-self-preservation: false #是否开启自动保护 默认为true
+  client:
+    service-url:
+      defaultZone:  http://eroot:eroot@eureka7001.com:7001/eureka
+      #defaultZone:  http://eroot:eroot@eureka7002.com:7002/eureka,http://eroot:eroot@eureka7003.com:7003/eureka
+    #register-with-eureka: false #当前服务不注册到erueka
+    #fetch-registry: false #当前服务不通过eureka获取信息
+  instance:
+    hostname: eureka7001.com
+
+spring:
+  application:
+    name: microcloud-eureka
+  security:
+    user:
+      name: eroot
+      password: eroot
+      roles: USER
