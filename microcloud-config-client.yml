@@ -29,7 +29,7 @@ eureka:
     service-url:
       defaultZone: http://eroot:eroot@eureka7001.com:7001/eureka
 info:
- app.name: ywl.22222222222
+ app.name: ywl.21111111
  company.name: www.ywl.com
  app.version: 1.0
 ---
