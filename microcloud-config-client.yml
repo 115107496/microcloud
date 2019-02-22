@@ -13,6 +13,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://eroot:eroot@eureka7001.com:7001/eureka
+info:
+ app.name: ywl.cn
+ company.name: www.ywl.com
+ app.version: 1.0
 ---
 server:
   port: 8102
@@ -24,6 +28,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://eroot:eroot@eureka7001.com:7001/eureka
+info:
+ app.name: ywl.cn
+ company.name: www.ywl.com
+ app.version: 1.0
 ---
 server:
   port: 8103
@@ -35,3 +43,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://eroot:eroot@eureka7001.com:7001/eureka
+info:
+ app.name: ywl.cn
+ company.name: www.ywl.com
+ app.version: 1.0
